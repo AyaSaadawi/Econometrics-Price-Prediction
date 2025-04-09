@@ -1,6 +1,5 @@
 # Econometrics-Price-Prediction
 
-## Abstract
 This study focuses on predicting car selling prices using regression models, including Linear Regression, Polynomial Regression, and regularized models such as Ridge and Lasso. The goal was to select the most effective model based on performance metrics like MAE, MSE, RMSE, and R2 score. The dataset was cleaned and preprocessed, and various assumptions related to linearity, homoscedasticity, and normality were tested. The results revealed that Polynomial Regression (Degree 2) provided the best balance between model complexity and predictive accuracy. This report details the methodology, analysis, and key findings from the study, offering actionable insights for future improvements.
 
 ## 2. Methodology
@@ -48,28 +47,3 @@ Ridge and Lasso performed poorly in this task, likely due to over-regularization
 
 ## 5. Conclusion
 This study successfully predicted car selling prices using regression models. Polynomial Regression (Degree 2) emerged as the best model based on performance metrics, striking a good balance between bias and variance. Although further refinement of the model is possible, the current approach provides a solid foundation for accurate car price predictions. Future work could involve feature engineering, experimenting with more advanced models, and further validation using real-world data.
-
----
-
-## Installation
-
-1. Clone this repository:
-    ```bash
-    git clone https://github.com/AyaSaadawi/Econometrics-Price-Prediction.git
-    ```
-
-2. Navigate to the project directory:
-    ```bash
-    cd Econometrics-Price-Prediction
-    ```
-
-3. Install dependencies:
-    ```bash
-    pip install -r requirements.txt
-    ```
-
-## Usage
-To run the project, use the following command to execute the script:
-
-```bash
-python car_price_prediction.py
